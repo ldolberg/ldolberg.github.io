@@ -63,6 +63,7 @@ void loop() {
     Serial.println(pingResult);
   }
   i = i + 1;
+}
 ```
 
 It will go something like 
