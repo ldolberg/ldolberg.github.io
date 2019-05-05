@@ -23,7 +23,7 @@ baseurl: /
 url: https://ldolberg.github.io
 twitter_username: username
 github_username: ldolberg
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
