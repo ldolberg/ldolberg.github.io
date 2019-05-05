@@ -8,15 +8,11 @@ tags:
   - networks
   - IoT
 ---
-Not so long ago, I got an nodemcu [esp8266](https://www.nodemcu.com/index_en.html). This device is awesome for prototyping and developing IoT gadgets.
+Not so long ago, I got a [esp8266](https://www.nodemcu.com/index_en.html). This device is awesome for prototyping and developing IoT gadgets.
 
-Since some devices might go on and off from my network, and I wanted to start with something simple to find out who is in. 
+Since some devices might go on and off from my network and I wanted to start with something simple to find what devices are connected. 
 
-This dead simple host scanner does the job pretty well. The idea behing is to loop a local network address space while probing if hosts are responding for ping. 
-
-The nodemcu can be programmed in either LUA or C++, I chose the latter because I wanted to get used to Arduino IDE. 
-
-In this case we are just going to need the ESP8266WiFi and ESP8266Ping libraries.
+This dead simple host scanner does the job pretty well. The idea behind is to loop through a local network address space (/24) while checking what hosts are responding for ICMP ping. We just need the ESP8266WiFi and ESP8266Ping libraries for that.
 
 
 ```cpp
