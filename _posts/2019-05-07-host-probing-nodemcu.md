@@ -16,7 +16,7 @@ This dead simple host scanner does the job pretty well. The idea behing is to lo
 
 The nodemcu can be programmed in either LUA or C++, I chose the latter because I wanted to get used to Arduino IDE. 
 
-In this case we are just going to need the ESP8266WiFi and ESP8266Ping library.
+In this case we are just going to need the ESP8266WiFi and ESP8266Ping libraries.
 
 
 ```cpp
