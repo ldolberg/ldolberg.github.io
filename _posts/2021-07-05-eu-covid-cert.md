@@ -15,7 +15,7 @@ tags:
 
 Since a couple of weeks the residents of Luxembourg we starting recieving European Digital Covid Certificates.
 
-These certificates aims easing some of the hassles while travelling inside EU and also improving some security aspects.
+These certificates aim at easing some of the hassles while travelling inside EU and also improving some security aspects.
 
 Before the introduction of the Digital Covid Certificates it was pretty simple to forge test results. Any person could edit a pdf document and it was hard for foreign authorities to assert the integrity of a pdf document shown from a phone or printed.
 
