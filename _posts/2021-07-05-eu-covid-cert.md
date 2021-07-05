@@ -45,7 +45,7 @@ The system will be in place for 12 months and cover all 27 EU countries as well 
 
 ## Not just a simple QR code
 
-![QR Code](../assets/images/INCERT_R_DCC_Vaccination.png "QR")
+![QR Code](/assets/images/INCERT_R_DCC_Vaccination.png "QR")
 
 To my surprise when scanning this QR code with the camera application from Android I get something like:
 
@@ -64,7 +64,7 @@ After checking these sources I guess we can already start decoding what comes ou
 
 To summarize, this is how the certificate gets into a QR code.
 
-![QR Code](../assets/images/overview.png "Overview") Source: https://github.com/ehn-dcc-development/hcert-spec
+![QR Code](/assets/images/overview.png "Overview") Source: https://github.com/ehn-dcc-development/hcert-spec
 
 
 So to decode the QR code we have to go backwards.
